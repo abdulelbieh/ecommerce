@@ -22,7 +22,7 @@ public class ProductCategoryValidator implements ServiceValidator<ProductCategor
             return false;
     }
 
-    private boolean validName(String name){
+    private boolean validName throws GenericException(String name){
         if(name !=null)
             return false;
         if(productCategoryDao.getProductCategoryByName(name) != null)

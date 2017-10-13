@@ -38,8 +38,7 @@ public class ProductCategoryApi {
         ProductCategoryDto productCategory = (ProductCategoryDto)request.getEntity();
         if(productCategoryValidator.isValid(productCategory)){
             productCategoryService.createProductCategory(productCategory);
-            response.setMessage("Success");
-            response.setResponseCode("200");
+            response.success();
         }
         else{
             throw  new GenericException();

@@ -31,4 +31,9 @@ public class EcommerceResponse<T> {
     public void setEntity(T entity) {
         this.entity = entity;
     }
+
+    public void success(){
+        this.setResponseCode("200");
+        this.setMessage("Success");
+    }
 }
