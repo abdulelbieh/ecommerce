@@ -3,7 +3,7 @@ package com.abdul.ecommerce.api;
 import com.abdul.ecommerce.api.util.EcommerceRequest;
 import com.abdul.ecommerce.api.util.EcommerceResponse;
 import com.abdul.ecommerce.service.OrderService;
-import com.abdul.ecommerce.model.OrderDetails;
+import com.abdul.ecommerce.repo.model.OrderDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.ws.rs.GET;

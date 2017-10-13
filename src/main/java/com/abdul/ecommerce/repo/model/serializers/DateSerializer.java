@@ -1,4 +1,4 @@
-package com.abdul.ecommerce.model.serializers;
+package com.abdul.ecommerce.repo.model.serializers;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;

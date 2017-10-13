@@ -1,4 +1,4 @@
-package com.abdul.ecommerce.model;
+package com.abdul.ecommerce.repo.model;
 
 import javax.persistence.*;
 

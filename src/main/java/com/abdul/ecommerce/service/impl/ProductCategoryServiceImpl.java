@@ -1,7 +1,7 @@
 package com.abdul.ecommerce.service.impl;
 
 import com.abdul.ecommerce.api.dto.ProductCategoryDto;
-import com.abdul.ecommerce.model.ProductCategory;
+import com.abdul.ecommerce.repo.model.ProductCategory;
 import com.abdul.ecommerce.repo.ProductCategoryDao;
 import com.abdul.ecommerce.service.ProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;

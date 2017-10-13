@@ -1,7 +1,7 @@
 package com.abdul.ecommerce.repo;
 
-import com.abdul.ecommerce.model.Receipt;
-import com.abdul.ecommerce.model.OrderDetails;
+import com.abdul.ecommerce.repo.model.Receipt;
+import com.abdul.ecommerce.repo.model.OrderDetails;
 
 /**
  * Created by abdul on 9/5/17.

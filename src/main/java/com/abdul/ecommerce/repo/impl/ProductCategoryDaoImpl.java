@@ -1,6 +1,6 @@
 package com.abdul.ecommerce.repo.impl;
 
-import com.abdul.ecommerce.model.ProductCategory;
+import com.abdul.ecommerce.repo.model.ProductCategory;
 import com.abdul.ecommerce.repo.ProductCategoryDao;
 
 import javax.persistence.EntityManager;

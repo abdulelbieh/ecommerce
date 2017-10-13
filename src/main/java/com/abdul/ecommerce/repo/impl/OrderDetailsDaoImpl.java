@@ -1,14 +1,13 @@
 package com.abdul.ecommerce.repo.impl;
 
 import com.abdul.ecommerce.repo.OrderDetailsDao;
-import com.abdul.ecommerce.model.OrderDetails;
+import com.abdul.ecommerce.repo.model.OrderDetails;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.persistence.criteria.CriteriaBuilder;
 import java.util.List;
 
 /**

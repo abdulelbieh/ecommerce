@@ -1,6 +1,6 @@
 package com.abdul.ecommerce.repo;
 
-import com.abdul.ecommerce.model.OrderDetails;
+import com.abdul.ecommerce.repo.model.OrderDetails;
 
 import java.util.List;
 

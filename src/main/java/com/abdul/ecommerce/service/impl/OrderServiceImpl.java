@@ -1,6 +1,6 @@
 package com.abdul.ecommerce.service.impl;
 
-import com.abdul.ecommerce.model.OrderDetails;
+import com.abdul.ecommerce.repo.model.OrderDetails;
 import com.abdul.ecommerce.repo.OrderDetailsDao;
 import com.abdul.ecommerce.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;

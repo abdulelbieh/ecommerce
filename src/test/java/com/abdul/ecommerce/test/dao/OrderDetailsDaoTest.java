@@ -1,6 +1,6 @@
 package com.abdul.ecommerce.test.dao;
 
-import com.abdul.ecommerce.model.OrderDetails;
+import com.abdul.ecommerce.repo.model.OrderDetails;
 import com.abdul.ecommerce.repo.OrderDetailsDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;

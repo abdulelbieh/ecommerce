@@ -1,10 +1,8 @@
 package com.abdul.ecommerce.service.validation;
 
 import com.abdul.ecommerce.api.dto.ProductCategoryDto;
-import com.abdul.ecommerce.model.ProductCategory;
 import com.abdul.ecommerce.repo.ProductCategoryDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by abdul on 9/11/17.

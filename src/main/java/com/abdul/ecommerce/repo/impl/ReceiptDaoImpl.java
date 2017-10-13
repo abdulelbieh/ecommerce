@@ -1,7 +1,7 @@
 package com.abdul.ecommerce.repo.impl;
 
-import com.abdul.ecommerce.model.OrderDetails;
-import com.abdul.ecommerce.model.Receipt;
+import com.abdul.ecommerce.repo.model.OrderDetails;
+import com.abdul.ecommerce.repo.model.Receipt;
 import com.abdul.ecommerce.repo.ReceiptDao;
 
 import javax.persistence.EntityManager;
