@@ -30,6 +30,6 @@ public class OrderDetailsDaoTest {
     public void testCreateOrder(){
         OrderDetails orderDetails = new OrderDetails();
         orderDetails.setValue(900);
-        orderDetailsDao.createOrder(orderDetails);
+        orderDetailsDao.save(orderDetails);
     }
 }
