@@ -14,7 +14,5 @@ public class ProductCategoryDto {
         this.name = name;
     }
 
-    public ProductCategoryDto(){}
-
     public ProductCategoryDto(String name){this.setName(name);}
 }

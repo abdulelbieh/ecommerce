@@ -16,9 +16,11 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
     @Override
     public List<ProductCategoryDto> getAllProductCategories() {
         List<ProductCategoryDto> productCategories = new LinkedList();
+
         for(ProductCategory productCategory: productCategoryDao.getAllProductCategories()){
             productCategories.add(new ProductCategoryDto(productCategory.getName()));
         }
+
         return productCategories;
     }
 
